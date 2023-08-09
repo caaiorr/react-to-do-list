@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.secListaTarefas{
+    width: 400px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.secListaTarefas form{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.secListaTarefas h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: 1.5px;
+}
+
+.secListaTarefas input{
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 7px;
+    width: 100%;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    background-color: rgb(36, 36, 99);
+    border: none;
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.add{
+    width: 70px;
+    height: 35px;
+    font-size: 1.3em;
+    padding: 3px;
+    margin-top: 7.5px;
+    margin-right: 10px;
+    border-radius: 13px;
+    border: none;
+    background-color: rgb(36, 36, 99);
+    color: rgba(255, 255, 255, 0.473);
+    border: 1px solid rgba(255, 255, 255, 0.473);
+    position: absolute;
+}
+
+.add:hover{
+    background-color: rgba(88, 228, 247, 0.226);
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.829);
+    border: 1px solid rgba(34, 130, 143, 0.226);
+}

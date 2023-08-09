@@ -1,11 +1,14 @@
 
-const Header = () => {
+import React from "react";
 
+const Header = () => {
     return (
-        <header>
-            <h1>Cabeçalho Funcionando!</h1>
-        </header>
-    )
+        <section>
+            <header>
+                
+            </header>
+        </section>
+    );
 }
 
 export default Header;

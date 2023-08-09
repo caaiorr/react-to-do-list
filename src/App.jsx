@@ -1,16 +1,15 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { useState } from 'react';
 
-import { useState } from 'react'
-import './App.css'
+import './App.css';
 
-import Header from './Componentes/Header/Header'
+import Header from './Componentes/Header/Header.jsx';
+import ListaTarefas from './Componentes/Main/ListaTarefas';
 
-function App() {
-
-  return (
-    <>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
       <Header></Header>
-    </>
-  )
-}
-
-export default App
+      <ListaTarefas></ListaTarefas>
+  </React.StrictMode>,
+);
