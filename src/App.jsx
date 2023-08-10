@@ -9,7 +9,14 @@ import ListaTarefas from './Componentes/Main/ListaTarefas';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <Header></Header>
-      <ListaTarefas></ListaTarefas>
+      <header>
+        <Header></Header>
+      </header>
+      <main>
+        <ListaTarefas></ListaTarefas>
+      </main>
+      <footer>
+        
+      </footer>
   </React.StrictMode>,
 );

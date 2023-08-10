@@ -8,52 +8,144 @@
     transform: translate(-50%, -30%);
 }
 
-.secListaTarefas form{
-    width: 400px;
-    display: flex;
-    justify-content: flex-end;
-}
+    .secListaTarefas h1{
+        color: rgb(215, 233, 248);
+        text-align: center;
+        font-size: 50px;
+        font-weight: 800;
+        margin-bottom: 18px;
+        letter-spacing: 1.5px;
+    }
 
-.secListaTarefas h1{
-    text-align: center;
-    font-size: 50px;
-    font-weight: 800;
-    margin-bottom: 8px;
-    letter-spacing: 1.5px;
-}
+    .secListaTarefas form{
+        width: 400px;
+        display: flex;
+        justify-content: flex-end;
+    }
 
-.secListaTarefas input{
-    padding-left: 10px;
-    font-size: 16px;
-    border-radius: 7px;
-    width: 100%;
-    position: relative;
-    height: 50px;
-    line-height: 50px;
-    margin-bottom: 30px;
-    background-color: rgb(36, 36, 99);
-    border: none;
-    color: rgba(255, 255, 255, 0.829);
-}
+        .secListaTarefas input{
+            padding-left: 10px;
+            font-size: 16px;
+            border-radius: 7px;
+            width: 100%;
+            position: relative;
+            height: 50px;
+            line-height: 50px;
+            margin-bottom: 30px;
+            background-color: rgb(36, 36, 99);
+            border: none;
+            color: rgba(255, 255, 255, 0.829);
+            letter-spacing: 0.7px;
+        }
 
-.add{
-    width: 70px;
-    height: 35px;
-    font-size: 1.3em;
-    padding: 3px;
-    margin-top: 7.5px;
-    margin-right: 10px;
-    border-radius: 13px;
-    border: none;
-    background-color: rgb(36, 36, 99);
-    color: rgba(255, 255, 255, 0.473);
-    border: 1px solid rgba(255, 255, 255, 0.473);
-    position: absolute;
-}
+        .add{
+            width: 70px;
+            height: 35px;
+            font-size: 1.3em;
+            padding: 3px;
+            margin-top: 7.5px;
+            margin-right: 7px;
+            border-radius: 13px;
+            border: none;
+            background-color: rgb(36, 36, 99);
+            color: rgba(255, 255, 255, 0.473);
+            border: 1px solid rgba(255, 255, 255, 0.473);
+            position: absolute;
+        }
 
-.add:hover{
-    background-color: rgba(88, 228, 247, 0.226);
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.829);
-    border: 1px solid rgba(34, 130, 143, 0.226);
-}
+        .add:hover{
+            background-color: rgba(10, 4, 100, 0.226);
+            cursor: pointer;
+            color: rgb(188, 204, 247);
+            border: none;
+            box-shadow: inset 3px 3px 0px 0px rgba(4, 1, 54, 0.808);
+        }
+
+    /* .listaTarefas{
+        
+    } */
+
+        .listEmpty{
+            font-size: 20px;
+        }
+
+        .item{
+            display: flex;
+            justify-content: space-between;
+            height: 36px;
+            line-height: 33px;
+            margin-bottom: 15px;
+            border: 1px solid grey;
+            border-radius: 7px;
+            padding: 0px 0px 0px 3px;
+        }
+
+        .item span{
+            padding-left: 6px;
+            color: rgba(255, 255, 255, 0.534);
+        }
+
+        .itemCompleto{
+            display: flex;
+            justify-content: space-between;
+            height: 36px;
+            line-height: 33px;
+            margin-bottom: 15px;
+            background-color: rgba(0, 0, 255, 0.342);
+            border: 1px solid rgba(0, 0, 255, 0.342);
+            border-radius: 7px;
+            padding: 0px 0px 0px 3px;
+            opacity: 0.7;
+        }
+
+        .itemCompleto span{
+            padding-left: 6px;
+            color: rgba(158, 153, 153, 0.596);
+            text-decoration: line-through;
+        }
+
+        .itemsButton{
+            width: 90px;
+            height: 38px;
+            background-color: rgb(99, 17, 14);
+            color: rgba(255, 255, 255, 0.534);
+            border: none;
+            font-weight: bolder;
+            border-top-right-radius: 7px;
+            border-bottom-right-radius: 7px;
+            transform: translate(1.3px, -1.5px)
+        }
+
+        .itemsButton:hover{
+            background-color: rgb(155, 28, 23);
+            cursor: pointer;
+        }
+    
+    .apagarTudo{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+    }
+
+    .apagarTudo span{
+        height: 25px;
+        line-height: 25px;
+        margin-right: 10px;
+        color: rgba(255, 255, 255, 0.534);
+    }
+
+    .apagarTudo button{
+        width: 90px;
+        height: 25px;
+        background-color: rgb(83, 5, 3);
+        color: rgba(204, 182, 182, 0.616);
+        border: none;
+        border-radius: 7px;
+    }
+
+    .apagarTudo button:hover{
+        background-color: rgb(155, 28, 23);
+        color: rgba(255, 255, 255, 0.534);
+        cursor: pointer;
+    }
+    
